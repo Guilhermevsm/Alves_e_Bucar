@@ -1,0 +1,136 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+#menu {
+    height: 160px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 110%;
+}
+
+p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#imagem-carrosel{
+    width: 570px;
+    height: 485px;
+}
+
+button{
+    background-color: #002E9F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+#texto2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#chamada1{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 110%;
+    /* or 51px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    color: #002E9F;
+    text-transform: uppercase;
+}
+
+#texto_lista{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 110%;
+    /* or 51px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+label{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    /* #002E9F */
+
+    color: #002E9F;
+}
+
+#enviar {
+    background-color: #002E9F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 100%;
+}
