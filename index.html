@@ -17,7 +17,7 @@
         <div class="container" id="menu" style="position: relative;">
             <nav class="navbar navbar-expand-md" style="padding-top: 50px;">
                 <div class="container-fluid"style="position: relative;">
-                    <img src="imagens/Frame (1).png" alt="Alves e Bucar" style="height:70px;">
+                    <img class="img-fluid" src="imagens/Frame (1).png" alt="Alves e Bucar" style="height:70px;">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" style="background-color: #0A1733;">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -47,28 +47,37 @@
 
         <div class="container" style="position: relative;" >
             <div class="row" style="padding-top: 65px; padding-bottom: 158px;">
-                <div class="col-5">
-                    <h1>Projetos de engenharia elaborados na plataforma BIM.</h1>
-                    <p>Projetos que permitem a integração e compatibilização de maneira fácil entre todas diciplinas.</p>
-                    <button type="button" style="width: 255px;">Fale conosco</button>
-                </div>
-                <div class="col-1"></div>
-                <div class="col-6" id="imagem-carrosel" style="position: relative; float: right;">
+                
+                <div class="carousel slide col-6 order-last" id="imagem-carrosel" style="position: relative; float: right;" data-bs-ride="carousel">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="position: relative; float: right;">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img class="d-block w-100" src="imagens/image1.png" alt="First slide">
+                            <img class="img-fluid" class="d-block w-100" src="imagens/image1.png" alt="0">
                           </div>
                           <div class="carousel-item">
-                            <img class="d-block w-100" src="imagens/image2.png" alt="Second slide">
+                            <img class="img-fluid" class="d-block w-100" src="imagens/image2.png" alt="1">
                           </div>
                           <div class="carousel-item">
-                            <img class="d-block w-100" src="imagens/image3.png" alt="Third slide">
+                            <img class="img-fluid" class="d-block w-100" src="imagens/image3.png" alt="2">
                           </div>
                         </div>
                       </div>
-                      
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#imagem-carrosel" data-bs-slide-to="0" class="active" style="background-color: #0A1733;"></button>
+                        <button type="button" data-bs-target="#imagem-carrosel" data-bs-slide-to="1" style="background-color: #0A1733;"></button>
+                        <button type="button" data-bs-target="#imagem-carrosel" data-bs-slide-to="2" style="background-color: #0A1733;"></button>
+                    </div>
                 </div>
+
+                <div class="col-5 order-first">
+                    <h1>Projetos de engenharia elaborados na plataforma BIM.</h1>
+                    <p>Projetos que permitem a integração e compatibilização<br>de maneira fácil entre todas diciplinas.</p>
+                    <button type="button" style="width: 255px;">Fale conosco</button>
+                </div>
+
+                <div class="col-1"></div>
+
+                
             </div>
         </div>
 
@@ -77,14 +86,14 @@
                 <div class="row" style="padding-top: 148px;">
                     <div class="col-3"></div>
                     <div class="col-6">
-                        <img src="imagens/Group 694.png">
+                        <img class="img-fluid" src="imagens/Group 694.png">
                     </div>
                     <div class="col-3"></div>
                 </div>
                 
                 <div class="row" style="padding-top: 146px;">
                     <div class="col-6">
-                        <img src="imagens/cena_engenharia_001 1.png" style="position: absolute; left: 0; height: 524px; width: 640px;">
+                        <img class="img-fluid" src="imagens/cena_engenharia_001 1.png" style=" left: 0; height: 524px; width: 740px;">
                     </div>
                     
                     <div class="col-6">
@@ -109,7 +118,7 @@
                 <div class="row" style="padding-top: 151px; padding-bottom: 176px;">
                     <div class="col-5"></div>
                     <div class="col-2">
-                        <img src="imagens/Group 677.png" style="position: relative; height: 70px; width: 80px;">
+                        <img class="img-fluid" src="imagens/Group 677.png" style="position: relative; height: 70px; width: 80px;">
                     </div>
                     <div class="col-5"></div>
                 </div>
@@ -124,14 +133,14 @@
                 <div class="row" style="padding-top: 156px;">
                     <div class="col-3"></div>
                    <div class="col-6">
-                        <img src="imagens/Group 689.png" style="position: relative;">
+                        <img class="img-fluid" src="imagens/Group 689.png" style="position: relative;">
                    </div>
                    <div class="col-3"></div>
                 </div>
                 
                 <div class="row" style="padding-top: 160px;">
                   <div class="col-4">
-                    <img src="imagens/Rectangle 213.png" style="height: 223px;">
+                    <img class="img-fluid" src="imagens/Rectangle 213.png" style="height: 223px;">
                   </div>
                   <div class="col-5">
                     <h3>PROJETOS HIDROSSANITÁRIOS</h3>
@@ -147,7 +156,7 @@
                   </div>
                 <div class="row" style="padding-top: 141px;">
                     <div class="col-4">
-                        <img src="imagens/Rectangle 214.png" style="height: 223px;">
+                        <img class="img-fluid" src="imagens/Rectangle 214.png" style="height: 223px;">
                       </div>
                       <div class="col-6">
                         <h3>INSTALAÇÕES DE COMBATE A INCÊNDIO</h3>
@@ -164,7 +173,7 @@
                 </div>
                 <div class="row" style="padding-top: 141px;">
                     <div class="col-4">
-                        <img src="imagens/Rectangle 216.png" style="height: 223px;">
+                        <img class="img-fluid" src="imagens/Rectangle 216.png" style="height: 223px;">
                       </div>
                       <div class="col-6">
                         <h3>REDE DE GÁS</h3>
@@ -177,7 +186,7 @@
                 </div>
                 <div class="row" style="padding-top: 141px;">
                     <div class="col-4">
-                        <img src="imagens/Rectangle 219.png" style="height: 223px;">
+                        <img class="img-fluid" src="imagens/Rectangle 219.png" style="height: 223px;">
                       </div>
                       <div class="col-8">
                         <h3>PROJETOS ESTRUTURAIS</h3>
@@ -190,7 +199,7 @@
                 </div>
                 <div class="row" style="padding-top: 141px;">
                     <div class="col-4">
-                        <img src="imagens/Rectangle 218.png" style="height: 223px;">
+                        <img class="img-fluid" src="imagens/Rectangle 218.png" style="height: 223px;">
                       </div>
                       <div class="col-6">
                         <h3>CONSULTORIA</h3>
@@ -218,50 +227,50 @@
                 <div class="row">
                     <div class="col-3"></div>
                     <div class="col-6">
-                        <img src="imagens/Group 698.png">
+                        <img class="img-fluid" src="imagens/Group 698.png">
                     </div>
                     <div class="col-3"></div>
                 </div>
                 <div class="row" style="padding-top: 140px;">
                     <div class="col-3">
-                        <img src="imagens/image 1.png">
-                        <p style="font-weight: bold;">Azure - Coty/OM INC</p>
+                        <img class="img-fluid" src="imagens/image 1.png" style="margin-bottom: 19px;">
+                        <p style="font-weight: bold; margin-bottom: 0;">Azure - Coty/OM INC</p>
                         <p>Edificação residencial com área construida de 41.162,47 m<sup>2</sup>.</br>Escopo: Projeto Hidrossanitário, Incêndio e Gás.</p>
                     </div>
                     <div class="col-3">
-                        <img src="imagens/image 1 (1).png">
-                        <p style="font-weight: bold;">HAUT - Coty/OM INC</p>
+                        <img class="img-fluid" src="imagens/image 1 (1).png" style="margin-bottom: 19px;">
+                        <p style="font-weight: bold; margin-bottom: 0;">HAUT - Coty/OM INC</p>
                         <p>Edificação residencial com área construida de 39.954,05 m<sup>2</sup>.</br>Escopo: Projeto Hidrossanitário, Incêndio e Gás.</p>
                     </div>
                     <div class="col-3">
-                        <img src="imagens/image 1 (2).png">
-                        <p style="font-weight: bold;">Infinity - Coty/OM INC</p>
+                        <img class="img-fluid" src="imagens/image 1 (2).png" style="margin-bottom: 19px;">
+                        <p style="font-weight: bold; margin-bottom: 0;">Infinity - Coty/OM INC</p>
                         <p>Edificação residencial com área construida de 43.865,90 m<sup>2</sup>.</br>Escopo: Projeto Hidrossanitário, Incêndio e Gás.</p>
                     </div>
                     <div class="col-3">
-                        <img src="imagens/image 1 (3).png">
-                        <p style="font-weight: bold;">Municipal - FR Incorporadora</p>
+                        <img class="img-fluid" src="imagens/image 1 (3).png" style="margin-bottom: 19px;">
+                        <p style="font-weight: bold; margin-bottom: 0;">Municipal - FR Incorporadora</p>
                         <p>Edificação residencial com área construida de 37.075,42 m<sup>2</sup>.</br>Escopo: Projeto Hidrossanitário, Incêndio e Gás.</p>
                     </div>
-                    <div class="row" style="padding-top: 74px;">
+                    <div class="row" style="padding-top: 74px; ">
                         <div class="col-3">
-                            <img src="imagens/image 1 (4).png">
-                            <p style="font-weight: bold;">Maua - FR Incorporadora</p>
+                            <img class="img-fluid" src="imagens/image 1 (4).png" style="margin-bottom: 19px;">
+                            <p style="font-weight: bold; margin-bottom: 0;">Maua - FR Incorporadora</p>
                             <p>Edificação residencial com área construida de 25.904,03 m<sup>2</sup>.</br>Escopo: Projeto Hidrossanitário, Incêndio e Gás.</p>
                         </div>
                         <div class="col-3">
-                            <img src="imagens/image 1 (5).png">
-                            <p style="font-weight: bold;">Lina - FR Incorporadora</p>
+                            <img class="img-fluid" src="imagens/image 1 (5).png" style="margin-bottom: 19px;">
+                            <p style="font-weight: bold; margin-bottom: 0;">Lina - FR Incorporadora</p>
                             <p>Edificação residencial com área construida de 16.042,98 m<sup>2</sup>.</br>Escopo: Projeto Hidrossanitário, Incêndio e Gás.</p>
                         </div>
                         <div class="col-3">
-                            <img src="imagens/image 1 (6).png">
-                            <p style="font-weight: bold;">Armazem T30 - FR Incorporadora</p>
+                            <img class="img-fluid" src="imagens/image 1 (6).png" style="margin-bottom: 19px;">
+                            <p style="font-weight: bold; margin-bottom: 0;">Armazem T30 - FR Incorporadora</p>
                             <p>Edificação residencial com área construida de 1.572,16 m<sup>2</sup>.</br>Escopo: Projeto Hidrossanitário, Incêndio e Gás.</p>
                         </div>
                         <div class="col-3">
-                            <img src="imagens/image 1 (7).png">
-                            <p style="font-weight: bold;">Aquarela - Habitat</p>
+                            <img class="img-fluid" src="imagens/image 1 (7).png" style="margin-bottom: 19px;">
+                            <p style="font-weight: bold; margin-bottom: 0;">Aquarela - Habitat</p>
                             <p>Edificação residencial com área construida de 18.756,35 m<sup>2</sup>.</br>Escopo: Projeto Hidrossanitário, Incêndio e Gás.</p>
                         </div>
                     </div>
@@ -281,28 +290,28 @@
                 <div class="row" style="padding-top: 145px; padding-bottom: 128px;">
                     <div class="col-3"></div>
                     <div class="col-6">
-                        <img src="imagens/nossos_clientes.png">
+                        <img class="img-fluid" src="imagens/nossos_clientes.png">
                     </div>
                     <div class="col-3"></div>
                 </div>
                 <div class="row" style="padding-bottom: 187px;">
                     <div class="col-2">
-                        <img src="imagens/logo_fr02 1.png" style="height: 60px;">
+                        <img class="img-fluid" src="imagens/logo_fr02 1.png" style="height: 60px;">
                     </div>
                     <div class="col-2">
-                        <img src="imagens/logo_city.png" style="height: 60px;">
+                        <img class="img-fluid" src="imagens/logo_city.png" style="height: 60px;">
                     </div>
                     <div class="col-2">
-                        <img src="imagens/logo_om_inc.png" style="height: 44px;">
+                        <img class="img-fluid" src="imagens/logo_om_inc.png" style="height: 44px;">
                     </div>
                     <div class="col-2">
-                        <img src="imagens/logo_habitat_inc.png" style="height: 33px;">
+                        <img class="img-fluid" src="imagens/logo_habitat_inc.png" style="height: 33px;">
                     </div>
                     <div class="col-2">
-                        <img src="imagens/logo_top_inc.png" style="height: 51px;">
+                        <img class="img-fluid" src="imagens/logo_top_inc.png" style="height: 51px;">
                     </div>
                     <div class="col-2">
-                        <img src="imagens/logo_sousa_andrade.png" style="height: 49px;">
+                        <img class="img-fluid" src="imagens/logo_sousa_andrade.png" style="height: 49px;">
                     </div>
                 </div>
             </div>
@@ -325,7 +334,7 @@
                 <div class="row"  style="padding-top: 140px; padding-bottom: 58px;">
                     <div class="col-3"></div>
                     <div class="col-6">
-                        <img src="imagens/contato.png">
+                        <img class="img-fluid" src="imagens/contato.png">
                     </div>
                     <div class="col-3"></div>
                 </div>
@@ -353,7 +362,7 @@
             <div class="container" style="padding-top: 46px; padding-bottom: 46px;">
                 <div class="row">
                     <div class="col-1">
-                        <img src="imagens/Group 675.png">
+                        <img class="img-fluid" src="imagens/Group 675.png">
                     </div>
                     <div class="col-8">
                         <p style="position: relative; color: white; top: 23px;">&copy; Alves e Bucar</p>
