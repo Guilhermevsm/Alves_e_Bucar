@@ -58,6 +58,10 @@ button:hover {
     opacity: 0.9;
 }
 
+input:hover{
+    opacity: 0.9;
+}
+
 a:hover {
     text-transform:uppercase ;
     font-weight: bold;
@@ -145,3 +149,12 @@ label{
     width: 100%;
 }
 
+.imgcliente{
+    mix-blend-mode: luminosity;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imgcliente:hover{
+    mix-blend-mode: normal;
+}
