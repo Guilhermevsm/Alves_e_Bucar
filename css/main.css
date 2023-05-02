@@ -21,8 +21,13 @@ body {
     justify-content: flex-end;
 }
 
+
+
 #menu {
-    height: 160px;
+    height: 140px;
+    width: 100%;
+    background-color: #FFF;
+    border-color: #FFF;
 }
 
 h1{
@@ -42,7 +47,7 @@ p{
     height: 485px;
 }
 
-button{
+.botao-geral{
     background-color: #002E9F;
     border: none;
     color: white;
@@ -54,7 +59,7 @@ button{
     border-radius: 30px;
 }
 
-button:hover {
+.botao-geral:hover {
     opacity: 0.9;
 }
 
@@ -151,10 +156,37 @@ label{
 
 .imgcliente{
     mix-blend-mode: luminosity;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .imgcliente:hover{
     mix-blend-mode: normal;
 }
+
+.botao-redondo{
+    background-color: #D9D9D9;
+    color: #D9D9D9;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    border: 0;
+    margin: 16px 16px 16px 16px;
+    padding: 0;
+    
+}
+
+.botao-redondo:active, .botao-redondo:hover{
+    background-color: #002E9F;
+}
+
+.mask2 {
+    -webkit-mask-image: url(./imagens/mascara2.png);
+    mask-image: url(./imagens/mascara2.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  }
+
+  
+
+ 
