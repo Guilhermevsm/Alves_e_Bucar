@@ -187,7 +187,7 @@ label{
     width: 190px;
     height: 24px;
     top: 99.25%;
-    left: 42.5%;
+   
     
     
 }
@@ -196,7 +196,7 @@ label{
     position: absolute;
     width: 190px;
     height: 24px;
-    top: 93.25%;
+    bottom: -2.5%;
     left: 22%;
 }
 
@@ -215,3 +215,8 @@ label{
       0% 0%
     )
 }
+
+.projetos {
+    padding-bottom: 50px;
+}
+
