@@ -31,7 +31,7 @@ body {
 }
 
 h1{
-    font-weight: 700;
+    font-weight: 900 !important;
     font-size: 54px;
     line-height: 110%;
 }
@@ -42,10 +42,7 @@ p{
     line-height: 21px;
 }
 
-#myCarousel{
-    width: 570px;
-    height: 485px;
-}
+
 
 .botao-geral{
     background-color: #002E9F;
@@ -281,4 +278,48 @@ label{
 
 button.carousel-indicators:hover{
     background-color: blue;
+}
+
+#botao-fale{
+    
+    width: 255px !important;
+    height: 60px;
+}
+
+.botoes-crs{
+    position:absolute;
+    top: 380px;
+
+}
+
+.indicadores{
+    position: relative;
+    bottom: -10%;
+}
+
+.img-cent {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95px;
+    height: 10px;
+}
+
+h4{
+
+    font-weight: 900 !important;
+    font-size: 32px;
+    line-height: 48px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-top: 148px;
+    padding-bottom: 30px;
+    color: #002E9F;
+}
+
+#logo3{
+    width: 79.6px;
+    height: 70px;
 }
